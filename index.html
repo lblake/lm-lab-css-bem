@@ -9,6 +9,22 @@
   </head>
 
   <body>
+    <audio id="darth-vader-audio">
+      <source src="/media/I am your father.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="yoda-audio">
+      <source
+        src="/media/you-must-unlearn-what-you-have-learned.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <audio id="sith-audio">
+      <source src="/media/anger.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="luke-audio">
+      <source src="/media/luke.mp3" type="audio/mpeg" />
+    </audio>
+
     <h1 class="title">BEM Notation Wars</h1>
     <div class="container">
       <div class="card card--black">
@@ -19,7 +35,9 @@
           <p>Conflict!</p>
           <p>Specificity Wars!</p>
           <p>Cookies</p>
-          <button class="btn btn--red">Dark Side Bad</button>
+          <button onclick="playDarthAudio()" type="button" class="btn btn--red">
+            Dark Side Bad (click button)
+          </button>
         </div>
       </div>
 
@@ -31,7 +49,13 @@
           <p>Beauty</p>
           <p>CSS that Scales!</p>
           <p>Great warrior. Wars not make one great!</p>
-          <button class="btn btn--green">Force is Good</button>
+          <button
+            onclick="playYodaAudio()"
+            type="button"
+            class="btn btn--green"
+          >
+            Force Is Good (click button)
+          </button>
         </div>
       </div>
 
@@ -43,7 +67,9 @@
           <p>Beauty</p>
           <p>CSS that Scales!</p>
           <p>Great warrior. Wars not make one great!</p>
-          <button class="btn btn--red">Dark Side Bad</button>
+          <button onclick="playSithAudio()" type="button" class="btn btn--red">
+            Dark Side Bad (click button)
+          </button>
         </div>
       </div>
 
@@ -55,9 +81,37 @@
           <p>Beauty</p>
           <p>CSS that Scales!</p>
           <p>Great warrior. Wars not make one great!</p>
-          <button class="btn btn--green">Force is Good</button>
+          <button
+            onclick="playLukeAudio()"
+            type="button"
+            class="btn btn--green"
+          >
+            Force Is Good (click button)
+          </button>
         </div>
       </div>
     </div>
+    <script>
+      let vader = document.getElementById('darth-vader-audio');
+      let yoda = document.getElementById('yoda-audio');
+      let sith = document.getElementById('sith-audio');
+      let luke = document.getElementById('luke-audio');
+
+      const playDarthAudio = () => {
+        vader.play();
+      };
+
+      const playYodaAudio = () => {
+        yoda.play();
+      };
+
+      const playSithAudio = () => {
+        sith.play();
+      };
+
+      const playLukeAudio = () => {
+        luke.play();
+      };
+    </script>
   </body>
 </html>
