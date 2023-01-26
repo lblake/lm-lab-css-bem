@@ -1,7 +1,46 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+.body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.title {
+  text-align: center;
+  max-width: 1200px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+}
+.card__heading {
+  text-align: center;
 }
 
-/* Happy coding! */
+.card--heading-color {
+  color: #fff;
+}
+
+.card {
+  margin: 1.25rem;
+}
+.card__image {
+  max-width: 300px;
+}
+
+.card__text {
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.card--dark {
+  box-shadow: 5px 5px 7px 5px #000000;
+  padding: 10px;
+  background-color: #000000;
+}
+
+.card--light {
+  box-shadow: 5px 5px 7px 5px #bebfba;
+  padding: 10px;
+  background-color: #248ad2;
+}
