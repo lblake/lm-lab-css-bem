@@ -31,14 +31,26 @@
   color: #fff;
 }
 
-.card--dark {
+.card--black {
   box-shadow: 5px 5px 7px 5px #bebfba;
   padding: 10px;
   background-color: #000000;
 }
 
-.card--light {
+.card--blue {
   box-shadow: 5px 5px 7px 5px #bebfba;
   padding: 10px;
   background-color: #248ad2;
+}
+
+.card--brown {
+  box-shadow: 5px 5px 7px 5px #bebfba;
+  padding: 10px;
+  background-color: #3f3539;
+}
+
+.card--grey {
+  box-shadow: 5px 5px 7px 5px #bebfba;
+  padding: 10px;
+  background-color: #a9a2a4;
 }
