@@ -7,8 +7,8 @@ body {
   margin: 0;
   font-family: 'star-wars';
   background-color: #bebfba;
-  max-width: 1550px;
-  margin: 0 auto;
+  max-width: 96.875rem;
+  margin: 1rem auto;
 }
 .title {
   text-align: center;
