@@ -83,3 +83,26 @@ body {
 .btn--green:hover {
   background-color: lightgreen;
 }
+
+.row {
+  display: flex;
+  gap: 0.625rem;
+  margin-bottom: auto;
+}
+
+.column {
+  flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .center__card--image {
+    display: flex;
+    justify-content: center;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .column {
+    flex-basis: 100%;
+  }
+}
