@@ -95,7 +95,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .center__card--image {
+  .card__center--image {
     display: flex;
     justify-content: center;
   }
