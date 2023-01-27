@@ -7,6 +7,8 @@ body {
   margin: 0;
   font-family: 'star-wars';
   background-color: #bebfba;
+  max-width: 1550px;
+  margin: 0 auto;
 }
 .title {
   text-align: center;
@@ -40,7 +42,7 @@ body {
 
 .card--black {
   box-shadow: 0.3125rem 0.3125rem 0.4375rem 0.3125rem #bebfba;
-  padding: 0.625rem;
+  padding: 1rem;
   background-color: #000000;
 }
 
@@ -52,7 +54,7 @@ body {
 
 .card--brown {
   box-shadow: 0.3125rem 0.3125rem 0.4375rem 0.3125rem #bebfba;
-  padding: 0.625rem;
+  padding: 1.0625rem;
   background-color: #3f3539;
 }
 
